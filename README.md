@@ -37,3 +37,14 @@ docker run -p 8080:8080 <imageName>:<tag>
 ```
 
 Replace `<imageName>` and `<tag>` with your desired image name and tag. The application will be accessible on `http://localhost:8080`.
+
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1730).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1731).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1729).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1726).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1727).png)
+![Project Screenshot]()
+![Project Screenshot]()
+![Project Screenshot]()
+![Project Screenshot]()
+
