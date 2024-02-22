@@ -20,7 +20,7 @@ usermod -aG docker ubuntu
 Update the Dockerfile with the necessary environment variables for OTel configuration. You can set the endpoint and, if applicable, provide authentication headers.
 
 ```bash
-ENV OTEL_EXPORTER_OTLP_ENDPOINT="https://otel.kloudmate.dev:4318"
+ENV OTEL_EXPORTER_OTLP_ENDPOINT="https://otel.kloudmate.com:4318"
 ENV OTEL_EXPORTER_OTLP_HEADERS="Authorization=<YOUR_SECRET_KEY>"
 
 # If no authentication is required, use the endpoint only
@@ -38,13 +38,12 @@ docker run -p 8080:8080 <imageName>:<tag>
 
 Replace `<imageName>` and `<tag>` with your desired image name and tag. The application will be accessible on `http://localhost:8080`.
 
+
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1725).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1730).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1731).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1729).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1726).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1727).png)
-![Project Screenshot]()
-![Project Screenshot]()
-![Project Screenshot]()
-![Project Screenshot]()
+
 
