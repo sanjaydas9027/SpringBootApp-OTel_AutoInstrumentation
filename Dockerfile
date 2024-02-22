@@ -23,7 +23,7 @@ ENV OTEL_LOGS_EXPORTER=otlp
 ENV OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
 #ENV OTEL_EXPORTER_OTLP_ENDPOINT="https://webhook.site/ddd1f40d-e3f7-4178-93e2-5f35760feaca"
 ENV OTEL_EXPORTER_OTLP_ENDPOINT=https://otel.kloudmate.com:4318
-ENV OTEL_EXPORTER_OTLP_HEADERS="Authorization=sk_iUhOV07FAapSLCjP0Zs0SGgb"
+ENV OTEL_EXPORTER_OTLP_HEADERS="Authorization=ski_iUhOV07FA"
 
 # Run the Spring Boot application with OpenTelemetry Java Agent
 CMD ["java", "-jar", "app.jar"]
