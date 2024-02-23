@@ -1,6 +1,6 @@
 # Sample Application with OTel Auto-Instrumentation
 
-This is a sample application that utilizes OpenTelemetry (OTel) auto-instrumentation to seamlessly collect logs, traces, and metrics, and then send them to a specified endpoint.
+This is a sample application that utilizes OpenTelemetry (OTel) auto-instrumentation to seamlessly collect logs, traces, and metrics, and then send them to a specified endpoint. **No code change is required for enabling OpenTelemetry instrumentation.**
 
 ## Installation Steps
 
@@ -27,6 +27,8 @@ ENV OTEL_EXPORTER_OTLP_HEADERS="Authorization=<YOUR_SECRET_KEY>"
 # ENV OTEL_EXPORTER_OTLP_ENDPOINT="https://webhook.site/ddd1f40d-e3f7-4178-93e2-5f35760feaca"
 ```
 
+**No code change is required within the application for enabling OpenTelemetry.**
+
 ## Docker Commands
 
 Build the Docker image and run the container with the following commands:
@@ -36,14 +38,25 @@ docker build -t <imageName> .
 docker run -p 8080:8080 <imageName>:<tag>
 ```
 
-Replace `<imageName>` and `<tag>` with your desired image name and tag. The application will be accessible on `http://localhost:8080`.
+The application will be accessible on `http://localhost:8080`and RollDice will be accessible on `http://localhost:8080/rolldice`
 
+# Screenshots
 
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1725).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1730).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1731).png)
+
+## Logs
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1724).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1732).png)
+
+## Trace
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1729).png)
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1726).png)
+
+## Metrics
 ![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1727).png)
+
+
 
 
