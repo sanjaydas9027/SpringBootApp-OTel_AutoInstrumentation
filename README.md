@@ -1,4 +1,4 @@
-# Sample Application with OTel Auto-Instrumentation
+# Spring Boot Application with OTel Auto-Instrumentation
 
 This is a sample application that utilizes OpenTelemetry (OTel) auto-instrumentation to seamlessly collect logs, traces, and metrics, and then send them to a specified endpoint. **No code change is required for enabling OpenTelemetry instrumentation.**
 
@@ -38,9 +38,9 @@ docker build -t <imageName> .
 docker run -p 8080:8080 <imageName>:<tag>
 ```
 ## Access App
-The application will be accessible on `http://localhost:8080` 
-RollDice will be accessible on `http://localhost:8080/rolldice`
-To pass Player name use queryparameter `?player=<playername>` i.e `http://localhost:8080/rolldice?player=sanjay`
+- The application will be accessible on `http://localhost:8080` 
+- RollDice will be accessible on `http://localhost:8080/rolldice`
+- To pass Player name use queryparameter `?player=<playername>` i.e `http://localhost:8080/rolldice?player=sanjay`
 
 # Screenshots
 
