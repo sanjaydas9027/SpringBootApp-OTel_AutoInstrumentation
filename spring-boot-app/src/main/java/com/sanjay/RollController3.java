@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RollController {
+public class RollController3 {
   private static final Logger logger = LoggerFactory.getLogger(RollController.class);
 
-  @GetMapping("/rolldice")
+  @GetMapping("/rolldice3")
   public String index(@RequestParam("player") Optional<String> player) {
     int result = this.getRandomNumber(1, 6);
     if (player.isPresent()) {
