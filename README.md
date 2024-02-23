@@ -37,25 +37,27 @@ Build the Docker image and run the container with the following commands:
 docker build -t <imageName> .
 docker run -p 8080:8080 <imageName>:<tag>
 ```
-
-The application will be accessible on `http://localhost:8080`and RollDice will be accessible on `http://localhost:8080/rolldice`
+## Access App
+The application will be accessible on `http://localhost:8080` 
+RollDice will be accessible on `http://localhost:8080/rolldice`
+To pass Player name use queryparameter `?player=<playername>` i.e `http://localhost:8080/rolldice?player=sanjay`
 
 # Screenshots
 
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1725).png)
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1730).png)
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1731).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/app.png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/ssh.png)
 
 ## Logs
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1724).png)
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1732).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/logs1.png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/logs2.png)
 
 ## Trace
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1729).png)
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1726).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/trace2.png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/trace1.png)
+
 
 ## Metrics
-![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshot%20(1727).png)
+![Project Screenshot](https://github.com/sanjaydas9027/OpenTelemetry-SpringBootApp/blob/master/Screenshots/metric.png)
 
 
 
